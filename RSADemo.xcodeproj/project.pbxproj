@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A600B9F01B45762400D4ED6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A600B9EF1B45762400D4ED6D /* main.m */; };
+		A600B9F31B45762400D4ED6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A600B9F21B45762400D4ED6D /* AppDelegate.m */; };
+		A600B9F61B45762400D4ED6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A600B9F51B45762400D4ED6D /* ViewController.m */; };
+		A600B9F91B45762400D4ED6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A600B9F71B45762400D4ED6D /* Main.storyboard */; };
+		A600B9FB1B45762400D4ED6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A600B9FA1B45762400D4ED6D /* Images.xcassets */; };
+		A600B9FE1B45762400D4ED6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A600B9FC1B45762400D4ED6D /* LaunchScreen.xib */; };
+		A600BA0A1B45762400D4ED6D /* RSADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A600BA091B45762400D4ED6D /* RSADemoTests.m */; };
+		A600BA171B45781500D4ED6D /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A600BA161B45781500D4ED6D /* RSA.m */; };
+		A69C00B71B48E0EE002C112F /* RSAPrivateKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = A69C00B61B48E0EE002C112F /* RSAPrivateKey.txt */; };
+		A69C00B91B48E10B002C112F /* RSAPublicKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = A69C00B81B48E10B002C112F /* RSAPublicKey.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A600BA041B45762400D4ED6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A600B9E21B45762400D4ED6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A600B9E91B45762400D4ED6D;
+			remoteInfo = RSADemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A600B9EA1B45762400D4ED6D /* RSADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600B9EE1B45762400D4ED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A600B9EF1B45762400D4ED6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A600B9F11B45762400D4ED6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A600B9F21B45762400D4ED6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A600B9F41B45762400D4ED6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A600B9F51B45762400D4ED6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A600B9F81B45762400D4ED6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A600B9FA1B45762400D4ED6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A600B9FD1B45762400D4ED6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A600BA031B45762400D4ED6D /* RSADemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSADemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600BA081B45762400D4ED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A600BA091B45762400D4ED6D /* RSADemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSADemoTests.m; sourceTree = "<group>"; };
+		A600BA151B45781500D4ED6D /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		A600BA161B45781500D4ED6D /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		A69C00B61B48E0EE002C112F /* RSAPrivateKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RSAPrivateKey.txt; sourceTree = "<group>"; };
+		A69C00B81B48E10B002C112F /* RSAPublicKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RSAPublicKey.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A600B9E71B45762400D4ED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600BA001B45762400D4ED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A600B9E11B45762400D4ED6D = {
+			isa = PBXGroup;
+			children = (
+				A600B9EC1B45762400D4ED6D /* RSADemo */,
+				A600BA061B45762400D4ED6D /* RSADemoTests */,
+				A600B9EB1B45762400D4ED6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A600B9EB1B45762400D4ED6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A600B9EA1B45762400D4ED6D /* RSADemo.app */,
+				A600BA031B45762400D4ED6D /* RSADemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A600B9EC1B45762400D4ED6D /* RSADemo */ = {
+			isa = PBXGroup;
+			children = (
+				A69C00B31B48E023002C112F /* RSAKey */,
+				A600BA151B45781500D4ED6D /* RSA.h */,
+				A600BA161B45781500D4ED6D /* RSA.m */,
+				A600B9F11B45762400D4ED6D /* AppDelegate.h */,
+				A600B9F21B45762400D4ED6D /* AppDelegate.m */,
+				A600B9F41B45762400D4ED6D /* ViewController.h */,
+				A600B9F51B45762400D4ED6D /* ViewController.m */,
+				A600B9F71B45762400D4ED6D /* Main.storyboard */,
+				A600B9FA1B45762400D4ED6D /* Images.xcassets */,
+				A600B9FC1B45762400D4ED6D /* LaunchScreen.xib */,
+				A600B9ED1B45762400D4ED6D /* Supporting Files */,
+			);
+			path = RSADemo;
+			sourceTree = "<group>";
+		};
+		A600B9ED1B45762400D4ED6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A600B9EE1B45762400D4ED6D /* Info.plist */,
+				A600B9EF1B45762400D4ED6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A600BA061B45762400D4ED6D /* RSADemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A600BA091B45762400D4ED6D /* RSADemoTests.m */,
+				A600BA071B45762400D4ED6D /* Supporting Files */,
+			);
+			path = RSADemoTests;
+			sourceTree = "<group>";
+		};
+		A600BA071B45762400D4ED6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A600BA081B45762400D4ED6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A69C00B31B48E023002C112F /* RSAKey */ = {
+			isa = PBXGroup;
+			children = (
+				A69C00B61B48E0EE002C112F /* RSAPrivateKey.txt */,
+				A69C00B81B48E10B002C112F /* RSAPublicKey.txt */,
+			);
+			path = RSAKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A600B9E91B45762400D4ED6D /* RSADemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600BA0D1B45762400D4ED6D /* Build configuration list for PBXNativeTarget "RSADemo" */;
+			buildPhases = (
+				A600B9E61B45762400D4ED6D /* Sources */,
+				A600B9E71B45762400D4ED6D /* Frameworks */,
+				A600B9E81B45762400D4ED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSADemo;
+			productName = RSADemo;
+			productReference = A600B9EA1B45762400D4ED6D /* RSADemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A600BA021B45762400D4ED6D /* RSADemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600BA101B45762400D4ED6D /* Build configuration list for PBXNativeTarget "RSADemoTests" */;
+			buildPhases = (
+				A600B9FF1B45762400D4ED6D /* Sources */,
+				A600BA001B45762400D4ED6D /* Frameworks */,
+				A600BA011B45762400D4ED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A600BA051B45762400D4ED6D /* PBXTargetDependency */,
+			);
+			name = RSADemoTests;
+			productName = RSADemoTests;
+			productReference = A600BA031B45762400D4ED6D /* RSADemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A600B9E21B45762400D4ED6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.doing;
+				TargetAttributes = {
+					A600B9E91B45762400D4ED6D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A600BA021B45762400D4ED6D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A600B9E91B45762400D4ED6D;
+					};
+				};
+			};
+			buildConfigurationList = A600B9E51B45762400D4ED6D /* Build configuration list for PBXProject "RSADemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A600B9E11B45762400D4ED6D;
+			productRefGroup = A600B9EB1B45762400D4ED6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A600B9E91B45762400D4ED6D /* RSADemo */,
+				A600BA021B45762400D4ED6D /* RSADemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A600B9E81B45762400D4ED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600B9F91B45762400D4ED6D /* Main.storyboard in Resources */,
+				A69C00B71B48E0EE002C112F /* RSAPrivateKey.txt in Resources */,
+				A69C00B91B48E10B002C112F /* RSAPublicKey.txt in Resources */,
+				A600B9FE1B45762400D4ED6D /* LaunchScreen.xib in Resources */,
+				A600B9FB1B45762400D4ED6D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600BA011B45762400D4ED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A600B9E61B45762400D4ED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600B9F61B45762400D4ED6D /* ViewController.m in Sources */,
+				A600B9F31B45762400D4ED6D /* AppDelegate.m in Sources */,
+				A600BA171B45781500D4ED6D /* RSA.m in Sources */,
+				A600B9F01B45762400D4ED6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600B9FF1B45762400D4ED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600BA0A1B45762400D4ED6D /* RSADemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A600BA051B45762400D4ED6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A600B9E91B45762400D4ED6D /* RSADemo */;
+			targetProxy = A600BA041B45762400D4ED6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A600B9F71B45762400D4ED6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A600B9F81B45762400D4ED6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A600B9FC1B45762400D4ED6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A600B9FD1B45762400D4ED6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A600BA0B1B45762400D4ED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A600BA0C1B45762400D4ED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A600BA0E1B45762400D4ED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSADemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSADemo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A600BA0F1B45762400D4ED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSADemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RSADemo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A600BA111B45762400D4ED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSADemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSADemo.app/RSADemo";
+			};
+			name = Debug;
+		};
+		A600BA121B45762400D4ED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSADemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSADemo.app/RSADemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A600B9E51B45762400D4ED6D /* Build configuration list for PBXProject "RSADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600BA0B1B45762400D4ED6D /* Debug */,
+				A600BA0C1B45762400D4ED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600BA0D1B45762400D4ED6D /* Build configuration list for PBXNativeTarget "RSADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600BA0E1B45762400D4ED6D /* Debug */,
+				A600BA0F1B45762400D4ED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600BA101B45762400D4ED6D /* Build configuration list for PBXNativeTarget "RSADemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600BA111B45762400D4ED6D /* Debug */,
+				A600BA121B45762400D4ED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A600B9E21B45762400D4ED6D /* Project object */;
+}
